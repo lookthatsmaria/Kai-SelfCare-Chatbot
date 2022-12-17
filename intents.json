@@ -1,0 +1,17 @@
+{
+    "intents": [
+      {
+        "tag": "BadFeeling",
+        "patterns": [
+            "Angry", "Anxious", "Ashamed", "Bitter", 
+            "Depressed", "Defeated", "Dissapointed",
+            "Embarassed", "Frustrated", "Grievous", 
+            "Hopeless", "Hurt", "Insecure", "Miserable",
+            "Sad", "Scared", "Uncomfortable", "Worthless"
+        ],
+        "responses": [
+          "I’m sorry that you feel this way. Did anything in particular trigger this feeling? Please provide a detailed explanation of the situation."
+        ]
+      }
+    ]
+  }
