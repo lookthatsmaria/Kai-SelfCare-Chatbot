@@ -1,0 +1,44 @@
+Train Accuracy : 0.998
+Test Accuracy : 0.647
+Best Accuracy Through Grid Search : 0.687
+Best Parameters :  {'mlg__C': 0.01, 'mlg__penalty': 'none', 'mlg__solver': 'saga', 'smote__k_neighbors': 2}
+[[ 3  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 0  3  0  1  0  0  2  0  0  0  0  0  0  1  0  0]
+ [ 0  0  5  0  0  0  0  0  0  1  0  0  0  0  0  0]
+ [ 0  2  1  7  0  0  0  0  0  1  0  2  0  0  0  0]
+ [ 0  0  0  0 11  0  0  0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  1  1  0  2  0  1  1  0  0  0]
+ [ 0  0  0  0  0  0  0  4  0  1  0  4  0  0  1  0]
+ [ 0  0  0  0  0  0  0  0  9  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  1  0  5  0  0  0  0  0  0]
+ [ 0  0  0  1  1  0  0  0  0  0  5  0  1  0  1  0]
+ [ 0  0  0  0  0  0  1  1  0  1  1  4  1  1  1  0]
+ [ 1  0  0  0  0  0  0  0  0  0  1  0  6  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  5  0  0]
+ [ 0  0  1  1  0  0  0  1  0  0  0  0  1  0  2  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  5]]
+                         precision    recall  f1-score   support
+
+     Always Being Right       0.75      1.00      0.86         3
+                Blaming       0.60      0.43      0.50         7
+        Catastrophizing       0.71      0.83      0.77         6
+      Control Fallacies       0.70      0.54      0.61        13
+    Emotional Reasoning       0.92      1.00      0.96        11
+      Fallacy Of Change       1.00      1.00      1.00         2
+    Fallacy Of Fairness       0.25      0.17      0.20         6
+              Filtering       0.50      0.40      0.44        10
+       Global Labelling       1.00      1.00      1.00         9
+Heaven's Reward Fallacy       0.45      0.83      0.59         6
+ Jumping to Conclusions       0.71      0.56      0.63         9
+                     No       0.36      0.36      0.36        11
+     Overgeneralization       0.60      0.75      0.67         8
+        Personalization       0.71      1.00      0.83         5
+              Polarized       0.29      0.33      0.31         6
+                Shoulds       1.00      0.71      0.83         7
+
+               accuracy                           0.65       119
+              macro avg       0.66      0.68      0.66       119
+           weighted avg       0.65      0.65      0.64       119
+
+0.6470588235294118

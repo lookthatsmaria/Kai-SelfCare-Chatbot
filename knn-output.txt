@@ -1,0 +1,44 @@
+Train Accuracy : 0.998
+Test Accuracy : 0.529
+Best Accuracy Through Grid Search : 0.540
+Best Parameters :  {'knn__n_neighbors': 5, 'knn__p': 2, 'knn__weights': 'distance', 'smote__k_neighbors': 10}
+[[3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 3 0 1 0 0 2 0 0 0 0 0 0 1 0 0]
+ [0 0 2 2 0 0 0 0 0 0 0 0 1 1 0 0]
+ [1 3 0 7 0 0 1 0 0 0 0 1 0 0 0 0]
+ [2 0 0 0 7 0 0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0]
+ [1 0 0 0 0 0 3 0 0 0 0 0 1 1 0 0]
+ [0 0 1 0 0 0 0 7 0 1 0 0 0 1 0 0]
+ [0 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 1 1 4 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0 3 0 0 1 3 0]
+ [1 0 0 0 0 1 1 3 0 1 0 0 0 2 2 0]
+ [1 0 1 0 0 0 0 0 0 0 1 0 4 1 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0]
+ [0 0 0 1 0 1 0 0 1 0 0 0 0 1 2 0]
+ [0 0 0 0 0 0 0 0 0 0 1 0 1 0 2 3]]
+                         precision    recall  f1-score   support
+
+     Always Being Right       0.33      1.00      0.50         3
+                Blaming       0.50      0.43      0.46         7
+        Catastrophizing       0.50      0.33      0.40         6
+      Control Fallacies       0.64      0.54      0.58        13
+    Emotional Reasoning       1.00      0.64      0.78        11
+      Fallacy Of Change       0.33      0.50      0.40         2
+    Fallacy Of Fairness       0.43      0.50      0.46         6
+              Filtering       0.54      0.70      0.61        10
+       Global Labelling       0.82      1.00      0.90         9
+Heaven's Reward Fallacy       0.67      0.67      0.67         6
+ Jumping to Conclusions       0.60      0.33      0.43         9
+                     No       0.00      0.00      0.00        11
+     Overgeneralization       0.44      0.50      0.47         8
+        Personalization       0.33      1.00      0.50         5
+              Polarized       0.22      0.33      0.27         6
+                Shoulds       1.00      0.43      0.60         7
+
+               accuracy                           0.53       119
+              macro avg       0.52      0.56      0.50       119
+           weighted avg       0.55      0.53      0.51       119
+
+0.5294117647058824
