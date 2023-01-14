@@ -1,0 +1,7 @@
+The structure of this folder is the follwoing:
+
+-- Output: folder containing the results of the model experimentation of every model.
+-- Chatbot: Implementation of the chatbot (Interface + Dialogue Flow).
+-- cognitive_distortion_detector_model.pkl: the saved model.
+-- Models: model experimentation code.
+-- script: script to test the the implementation.
